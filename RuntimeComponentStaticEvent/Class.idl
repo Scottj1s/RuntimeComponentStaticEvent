@@ -1,0 +1,10 @@
+namespace RuntimeComponentStaticEvent
+{
+    [default_interface]
+    runtimeclass Class
+    {
+        Class();
+        Int32 MyProperty;
+	    static event Windows.Foundation.EventHandler<Int32> SomeEvent;
+    }
+}
